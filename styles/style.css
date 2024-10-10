@@ -1,3 +1,64 @@
-h4{
-    color: rgb(244, 16, 16);
+.azeret-mono {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+header{
+  background-image: url('hero.png');
+  background-repeat: no-repeat;
+}
+.main{
+    padding: 120px;
+    margin: 30px;
+    background-color:rgba(13, 19, 33, 0.02);
+}
+.title{
+   justify-content: center;
+}
+.btn-primary{
+    border-radius: 3px;
+    color: #0D1321;
+    padding: 7px 14px;
+    font-weight: 600;
+    border-color: #0D1321;
+}
+.text-primary{
+    color: #0D1321;
+}
+.part-1{
+    display: flex;
+    justify-content: left;
+    gap: 320px;
+    margin-top: 60px;
+}
+.part-2{
+    display: flex;
+    justify-content:left; 
+    gap: 320px;
+    margin-top: 60px;
+}
+.part-3{
+    display: flex;
+    justify-content: left;
+    gap: 320px;
+    margin-top: 60px;
+}
+
+
+/* i need support part */
+.text-area{
+    width: 350px;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+.btn{
+    border-radius: 5px solid black;
+    padding: 10px 23px;
+    font-size: medium;
+    font-weight: bold;
+    background-color: white;
 }
