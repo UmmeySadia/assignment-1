@@ -1,88 +1,176 @@
 .azeret-mono {
-  font-family: "Azeret Mono", monospace;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Azeret Mono";
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+header {
+    background-image: url('hero.png');
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 1340px;
+}
+.banner{
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 30px 0px;
+}
+.future-developer{
+    color: rgba(13, 19, 33, 1);
+    font-size: 14px;
+    font-weight: 400;
+}
+.contact{
+    padding: 13px 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 13px;
+}
+.main {
+    padding: 70px;
+    margin: 10px 65px;
+    background-color: rgba(13, 19, 33, 0.02);
+    border-radius: 10px;
+}
+.title {
+    text-align: center;
+    color: rgba(13, 19, 33, 1);
 }
 
-
-header{
-  background-image: url('hero.png');
-  background-repeat: no-repeat;
-}
-.main{
-    padding: 120px;
-    margin: 30px;
-    background-color:rgba(13, 19, 33, 0.02);
-}
-.title{
-   justify-content: center;
-}
-.btn-primary{
+.btn-primary {
     border-radius: 3px;
-    color: #0D1321;
+    color:rgba(13, 19, 33, 0.7);
     padding: 7px 14px;
     font-weight: 600;
-    border-color: #0D1321;
+    border-color: rgba(13, 19, 33, 0.7);
+    font-size: 14px;
+    margin-top: 2px;
 }
-.text-primary{
-    color: #0D1321;
+
+.text-primary {
+    color:rgba(13, 19, 33, 0.7);
+    font-size: 20px;
+    font-weight: bold;
 }
-.part-1{
+.part-1 {
+    display: flex;
+    justify-content: left;
+    gap: 320px;
+    margin-top: 20px;
+}
+.part-2 {
     display: flex;
     justify-content: left;
     gap: 320px;
     margin-top: 60px;
 }
-.part-2{
-    display: flex;
-    justify-content:left; 
-    gap: 320px;
-    margin-top: 60px;
-}
-.part-3{
+.part-3 {
     display: flex;
     justify-content: left;
     gap: 320px;
     margin-top: 60px;
 }
-
-
-/* i need support part */
-.bck-grnd{
+/* video */
+.video{
+    text-align: center;
+    padding: 60px 0px;
+}
+#video{
+    border-radius: 15px;
+}
+/* cards */
+.card-option {
+    text-align: center;
+    margin: 30px 72px;
+    border-radius: 10px;
+}
+#meaning {
+    font-weight: 900;
+    font-size: 20px;
+    color: rgba(13, 19, 33, 1);
+}
+#full-form{
+    font-size: 14px;
+}
+#learn-more{
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+}
+#target{
+    font-size: 25px;
+    font-weight: 900;
+}
+#clicked{
+    font-size: 14px;
+    margin-bottom: 45px;
+}
+.cards {
+    display: flex;
+    gap: 30px;
+    margin: 0px 50px;
+    justify-content: space-evenly;
+}
+.html-card {
+    background-color: rgba(255, 76, 30, 0.05);
+    padding: 30px;
+    text-align: left;
+    border-radius: 8px;
+}
+.css-card {
+    background-color: rgba(0, 76, 232, 0.05);
+    padding: 30px;
+    text-align: left;
+    border-radius: 8px;
+}
+.js-card {
+    background-color: rgba(255, 223, 0, 0.05);
+    padding: 30px;
+    text-align: left;
+    border-radius: 8px;
+}
+/* i need support.. part */
+.bck-grnd {
     background-image: url('handshake.jpg');
+    opacity:1.0;
     border-radius: 15px;
     background-repeat: no-repeat;
-    margin: 10px 65px;
+    margin: 20px 65px;
     height: 513px;
     width: 1190px;
     background-size: cover;
 }
-.need-support{
+.need-support {
     padding: 160px 370px;
-   justify-content: center;
+    justify-content: center;
 }
-#need{
+#need {
     text-align: center;
     color: white;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 28px;
     line-height: 9px;
 }
-#feature{
+#feature {
     color: #ffffffc9;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     text-align: center;
 }
-.text-area{
+.text-area {
     width: 350px;
     height: 35px;
     border: 2px solid white;
     border-radius: 7px;
     background-color: white;
-   /* padding: 20px 70px; */
+    text-align: left;
+    align-items: center;
 }
-.btn{
+.btn {
     border: 2px solid white;
     border-radius: 7px;
     padding: 10px 23px;
@@ -90,30 +178,31 @@ header{
     font-weight: bold;
     background-color: white;
 }
-.buttons{
+.buttons {
     display: flex;
     gap: 10px;
+    padding-top: 20px;
 }
-.text{
+/* footer */
+.text {
     color: rgba(13, 19, 33, 1);
     font-weight: 700;
-    font-size: 20px;
+    font-size: 16px;
 }
-.area{
+.area {
     margin: 10px 90px;
-  display: flex;
-  align-items: center;
-gap: 610px;
+    display: flex;
+    align-items: center;
+    gap: 610px;
 }
-.last-part{
-    margin-top:57px ;
+.last-part {
+    margin-top: 57px;
     display: flex;
     justify-content: space-between;
-    /* margin: 10px 90px; */
     align-items: center;
     background-color: rgba(13, 19, 33, 0.03);
 }
-.icon{
+.icon {
     display: flex;
     gap: 15px;
 }
